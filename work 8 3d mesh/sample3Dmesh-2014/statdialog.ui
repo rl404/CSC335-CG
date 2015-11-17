@@ -1,0 +1,75 @@
+<ui version="4.0" >
+ <class>StatDialogClass</class>
+ <widget class="QDialog" name="StatDialogClass" >
+  <property name="geometry" >
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>200</width>
+    <height>126</height>
+   </rect>
+  </property>
+  <property name="windowTitle" >
+   <string>Mesh Statistics</string>
+  </property>
+  <widget class="QPushButton" name="okButton" >
+   <property name="geometry" >
+    <rect>
+     <x>60</x>
+     <y>90</y>
+     <width>71</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text" >
+    <string>OK</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="layoutWidget" >
+   <property name="geometry" >
+    <rect>
+     <x>9</x>
+     <y>9</y>
+     <width>171</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout" >
+    <item>
+     <widget class="QLabel" name="vertexLabel" >
+      <property name="text" >
+       <string>Vertices</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="faceLabel" >
+      <property name="text" >
+       <string>Faces</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11" />
+ <resources/>
+ <connections>
+  <connection>
+   <sender>okButton</sender>
+   <signal>clicked()</signal>
+   <receiver>StatDialogClass</receiver>
+   <slot>accept()</slot>
+   <hints>
+    <hint type="sourcelabel" >
+     <x>218</x>
+     <y>63</y>
+    </hint>
+    <hint type="destinationlabel" >
+     <x>268</x>
+     <y>111</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

@@ -1,0 +1,45 @@
+<ui version="4.0" >
+ <class>StatWidgetClass</class>
+ <widget class="QWidget" name="StatWidgetClass" >
+  <property name="geometry" >
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>123</width>
+    <height>88</height>
+   </rect>
+  </property>
+  <property name="windowTitle" >
+   <string>StatWidget</string>
+  </property>
+  <widget class="QLabel" name="VertexLabel" >
+   <property name="geometry" >
+    <rect>
+     <x>9</x>
+     <y>9</y>
+     <width>175</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text" >
+    <string>Vertices:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="FaceLabel" >
+   <property name="geometry" >
+    <rect>
+     <x>9</x>
+     <y>49</y>
+     <width>175</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text" >
+    <string>Faces:</string>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11" />
+ <resources/>
+ <connections/>
+</ui>
